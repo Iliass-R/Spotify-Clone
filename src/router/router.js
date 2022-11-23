@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import LoadingVue from "../views/LoadingVue.vue";
 import GetStarted from "../views/GetStarted.vue";
+import Mode from "../views/Mode.vue";
 
 const routes = [
   {
@@ -13,6 +14,11 @@ const routes = [
     path: "/getstarted",
     name: "getstarted",
     component: GetStarted,
+  },
+  {
+    path: "/mode",
+    name: "mode",
+    component: Mode,
   },
 ];
 

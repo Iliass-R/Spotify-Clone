@@ -11,7 +11,9 @@
             Cursus ornare id
             scelerisque aliquam.</p>
         <div class="button">
-            <button class="btn">Get Started</button>
+            <router-link class="btn" to="/mode">
+                <h2 class="getstarted">Get started</h2>
+            </router-link>
         </div>
     </div>
 </template>
@@ -72,7 +74,16 @@
 
     background: #42C83C;
     border-radius: 30px;
-    font-family: 'Satoshi';
+}
+
+.getstarted {
+    position: absolute;
+    width: 118px;
+    height: 30px;
+    left: 105px;
+    right: 106px;
+    top: 31px;
+
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
