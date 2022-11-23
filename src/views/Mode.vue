@@ -19,8 +19,8 @@
                 </div>
             </div>
         </div>
-        <div class="button">
-            <router-link class="btn" to="/mode">
+        <div>
+            <router-link class="btn-continue" to="/registerorsignup">
                 <h2 class="continue">Continue</h2>
             </router-link>
         </div>
@@ -40,7 +40,7 @@
     bottom: 88.63%;
 }
 
-.btn {
+.btn-continue {
     position: absolute;
     width: 329px;
     height: 92px;
@@ -133,7 +133,7 @@
     top: 31px;
 
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 22px;
     line-height: 30px;
     /* identical to box height */

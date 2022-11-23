@@ -38,6 +38,10 @@
 <style>
 .page {
     background-color: #1C1B1B;
+    width: 390px;
+    height: 844px;
+    overflow: hidden;
+    position: fixed;
 }
 
 .photo {

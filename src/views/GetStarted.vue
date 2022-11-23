@@ -10,8 +10,8 @@
         <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus.
             Cursus ornare id
             scelerisque aliquam.</p>
-        <div class="button">
-            <router-link class="btn" to="/mode">
+        <div>
+            <router-link class="btn-start" to="/mode">
                 <h2 class="getstarted">Get started</h2>
             </router-link>
         </div>
@@ -38,13 +38,15 @@
     left: 53px;
     top: 499px;
 
+    font-family: 'Satoshi';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
-
+    /* identical to box height */
 
     text-transform: capitalize;
+
     color: #DADADA;
 }
 
@@ -65,7 +67,7 @@
     color: #797979;
 }
 
-.btn {
+.btn-start {
     position: absolute;
     width: 329px;
     height: 92px;
@@ -81,17 +83,13 @@
     width: 118px;
     height: 30px;
     left: 105px;
-    right: 106px;
     top: 31px;
-
+    font-family: 'Satoshi';
+    font-weight: 500;
     font-style: normal;
-    font-weight: 700;
     font-size: 22px;
     line-height: 30px;
-    /* identical to box height */
-
     text-transform: capitalize;
-
     color: #F6F6F6;
 }
 </style>
