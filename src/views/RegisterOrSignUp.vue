@@ -12,6 +12,9 @@
         <div class="logo1">
             <img src="../../spotify.svg">
         </div>
+        <div class="left-arrow">
+            <img src="../../Left.svg">
+        </div>
         <div class="text">
             <h1 class="title">Enjoy Listening To Music</h1>
         </div>
@@ -168,5 +171,13 @@
 
     color: #FFFFFF;
 
+}
+
+.left-arrow {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 31px;
+    top: 40px;
 }
 </style>
