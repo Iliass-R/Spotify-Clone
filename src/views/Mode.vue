@@ -20,7 +20,9 @@
             </div>
         </div>
         <div class="button">
-            <button class="btn">Continue</button>
+            <router-link class="btn" to="/mode">
+                <h2 class="continue">Continue</h2>
+            </router-link>
         </div>
     </div>
 </template>
@@ -120,5 +122,24 @@
     bottom: 19px;
     height: 73px;
     width: 73px;
+}
+
+.continue {
+    position: absolute;
+    width: 118px;
+    height: 30px;
+    left: 105px;
+    right: 106px;
+    top: 31px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #F6F6F6;
 }
 </style>
